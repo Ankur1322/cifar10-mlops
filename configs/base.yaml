@@ -1,0 +1,11 @@
+project:
+  name: cifar10-mlops
+  seed: 42
+
+paths:
+  data_dir: data
+  reports_dir: reports
+  checkpoints_dir: checkpoints
+
+logging:
+  level: INFO

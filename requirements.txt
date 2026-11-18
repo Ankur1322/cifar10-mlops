@@ -1,0 +1,6 @@
+# Core libraries. Install TensorFlow separately (see README).
+numpy
+pyyaml
+matplotlib
+scikit-learn
+pandas

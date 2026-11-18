@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data, models, and experiment outputs stay out of Git
+data/
+mlruns/
+checkpoints/
+outputs/
+
+# Frontend (later)
+node_modules/
+
+# Secrets
+.env
