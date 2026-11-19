@@ -15,3 +15,11 @@ data:
   val_size: 5000
   batch_size: 128
   shuffle_buffer: 10000
+
+augment:
+  pad: 4
+  max_rotation_degrees: 15.0
+  erase_prob: 0.25
+  mixup_alpha: 0.2
+  cutmix_alpha: 1.0
+  batch_mix_prob: 0.5
