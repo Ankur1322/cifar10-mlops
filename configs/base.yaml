@@ -9,3 +9,9 @@ paths:
 
 logging:
   level: INFO
+
+data:
+  num_classes: 10
+  val_size: 5000
+  batch_size: 128
+  shuffle_buffer: 10000
